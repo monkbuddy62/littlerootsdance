@@ -362,18 +362,25 @@ p  { font-size: 1rem; color: var(--text-light); }
 .photo-strip {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 260px;
-  overflow: hidden;
+  gap: 0;
+  margin: 0;
 }
-.photo-strip img {
+.photo-strip-cell {
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  display: block;
+}
+.photo-strip-cell img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 5%;
   display: block;
   transition: transform 0.4s ease;
 }
-.photo-strip img:hover { transform: scale(1.04); }
+.photo-strip-cell img:hover { transform: scale(1.04); }
+@media (max-width: 640px) {
+  .photo-strip { grid-template-columns: 1fr; }
+}
 
 /* ── TRUST BAR ── */
 .trust-bar {
