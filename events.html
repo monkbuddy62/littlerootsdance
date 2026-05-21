@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events — Little Roots Dance</title>
+  <meta name="description" content="Join Miss Ashley Thompson for Wiggle and Move community movement classes at Delridge Community Center in West Seattle. Open to children ages 2–6." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAV
+════════════════════════════════════════════ -->
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Little Roots Dance home">
+            <img src="images/logo-white.png" alt="Little Roots Dance" class="site-logo-img" width="65" height="63">
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="schools.html">For Schools</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="for-parents.html">For Parents</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="btn-nav-cta">Contact</a></li>
+    </ul>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<nav class="nav-mobile" id="mobile-nav" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="schools.html">For Schools</a>
+  <a href="events.html">Events</a>
+  <a href="for-parents.html">For Parents</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- ══════════════════════════════════════════
+     HERO
+════════════════════════════════════════════ -->
+<section class="hero" aria-label="Events introduction" style="background-image: linear-gradient(rgba(11,35,14,0.72), rgba(45,80,22,0.58)), url('images/girl-movement.jpg'); background-size: cover; background-position: center;">
+  <svg class="hero-bg-pattern" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+    <g fill="none" stroke="#FDF6EC" stroke-width="1.2" opacity="0.6">
+      <!-- Stars/sparkles suggesting festivity -->
+      <circle cx="100" cy="120" r="3" fill="#FDF6EC" opacity="0.3"/>
+      <circle cx="250" cy="80" r="2" fill="#FDF6EC" opacity="0.25"/>
+      <circle cx="600" cy="100" r="3" fill="#FDF6EC" opacity="0.3"/>
+      <circle cx="750" cy="60" r="2" fill="#FDF6EC" opacity="0.25"/>
+      <circle cx="400" cy="200" r="4" fill="#FDF6EC" opacity="0.2"/>
+      <!-- Swirls suggesting movement/dance -->
+      <path d="M80 300 Q120 260 160 300 Q200 340 240 300" opacity="0.3"/>
+      <path d="M400 350 Q440 310 480 350 Q520 390 560 350" opacity="0.25"/>
+      <path d="M620 250 Q660 210 700 250 Q740 290 780 250" opacity="0.3"/>
+      <!-- leaves -->
+      <ellipse cx="300" cy="150" rx="22" ry="11" transform="rotate(-25 300 150)" opacity="0.25"/>
+      <ellipse cx="500" cy="180" rx="18" ry="9" transform="rotate(15 500 180)" opacity="0.2"/>
+    </g>
+  </svg>
+  <div class="container">
+    <div class="hero-content">
+      <span class="section-label">Community &amp; Events</span>
+      <h1>Move, Play, and Connect</h1>
+      <p>Open community sessions where children explore creative movement in a joyful, welcoming group setting. All wiggles and enthusiastic feet welcome.</p>
+      <div class="hero-ctas">
+        <a href="#wiggle-and-move" class="btn btn-primary">See Upcoming Events</a>
+        <a href="contact.html" class="btn btn-outline">Stay in Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     INTRO
+════════════════════════════════════════════ -->
+<section class="section-sm bg-cream" id="events-intro" aria-labelledby="intro-heading">
+  <div class="container">
+    <div class="events-intro">
+      <span class="section-label">Our Community Approach</span>
+      <h2 id="intro-heading" class="section-heading">Movement Is for Everyone</h2>
+      <p>Our passion is to connect the body and mind through imaginative play and storytelling, song, dance, and sensory development. Community events are where that mission lives most freely — no pressure, no performance, just children moving and discovering what their bodies can do.</p>
+      <p style="margin-top:1rem;">We teach a variety of mixed curriculum that adapts to the individuals and community it surrounds. Every session feels a little different because every group of children is a little different.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     WIGGLE AND MOVE
+════════════════════════════════════════════ -->
+<section class="section bg-white" id="wiggle-and-move" aria-labelledby="wam-heading">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Recurring Event</span>
+      <h2 class="section-heading" id="wam-heading">Wiggle and Move</h2>
+      <p class="section-sub">Our signature community class at Delridge Community Center in West Seattle. Come as you are, wear something comfy, and get ready to move.</p>
+    </div>
+
+    <div class="event-card" style="max-width:900px;">
+      <div class="event-card-accent" aria-hidden="true"></div>
+      <div class="event-card-body">
+        <div class="event-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10"/></svg>
+          Community Class
+        </div>
+        <h3 id="wam-heading-card">Wiggle and Move at Delridge</h3>
+
+        <div class="event-meta">
+          <div class="event-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Date TBD — check back soon
+          </div>
+          <div class="event-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            1 Hour
+          </div>
+          <div class="event-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Delridge Community Center, West Seattle
+          </div>
+          <div class="event-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+            Ages 2–6
+          </div>
+          <div class="event-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            Cost TBD
+          </div>
+        </div>
+
+        <p>A full hour of joyful movement guided by Miss Ashley. The session moves through gentle warm-ups, playful dance games, guided creative movement sequences, and free-form invention time — each child gets space to express in their own way.</p>
+
+        <h4 style="color:var(--green-deep); margin-bottom:0.75rem; margin-top:1rem;">What to Expect</h4>
+        <ul style="display:grid; grid-template-columns:1fr 1fr; gap:0.6rem 1.5rem; list-style:none; margin-bottom:1.5rem;" role="list">
+          <li style="display:flex; align-items:center; gap:0.5rem; font-size:0.92rem; color:var(--text-light);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7B9E4E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Warm-up movement circle
+          </li>
+          <li style="display:flex; align-items:center; gap:0.5rem; font-size:0.92rem; color:var(--text-light);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7B9E4E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Playful dance games
+          </li>
+          <li style="display:flex; align-items:center; gap:0.5rem; font-size:0.92rem; color:var(--text-light);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7B9E4E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Guided creative movement
+          </li>
+          <li style="display:flex; align-items:center; gap:0.5rem; font-size:0.92rem; color:var(--text-light);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7B9E4E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Free-form invention time
+          </li>
+          <li style="display:flex; align-items:center; gap:0.5rem; font-size:0.92rem; color:var(--text-light);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7B9E4E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Comfy clothes required
+          </li>
+          <li style="display:flex; align-items:center; gap:0.5rem; font-size:0.92rem; color:var(--text-light);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7B9E4E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Caregivers welcome to watch
+          </li>
+        </ul>
+
+        <h4 style="color:var(--green-deep); margin-bottom:0.75rem; margin-top:1rem;">What to Bring</h4>
+        <ul style="display:flex; flex-direction:column; gap:0.5rem; list-style:none; margin-bottom:1.5rem;" role="list">
+          <li style="display:flex; align-items:center; gap:0.5rem; font-size:0.92rem; color:var(--text-light);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7B9E4E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Comfortable clothing you can move in
+          </li>
+          <li style="display:flex; align-items:center; gap:0.5rem; font-size:0.92rem; color:var(--text-light);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7B9E4E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            A water bottle
+          </li>
+          <li style="display:flex; align-items:center; gap:0.5rem; font-size:0.92rem; color:var(--text-light);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7B9E4E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Big imaginations
+          </li>
+        </ul>
+
+        <a href="contact.html" class="btn btn-primary">Reserve a Spot</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PHOTO STRIP
+════════════════════════════════════════════ -->
+<div class="photo-strip" aria-hidden="true">
+  <img src="images/hula-hoop.jpg" alt="Child with hula hoop in movement class">
+  <img src="images/group-dance.jpg" alt="Group of children in dance attire">
+  <img src="images/hero-dance.jpg" alt="Child dancing with expressive movement">
+</div>
+
+<!-- ══════════════════════════════════════════
+     BLOG PREVIEW
+════════════════════════════════════════════ -->
+<section class="section bg-cream" id="from-ashley" aria-labelledby="blog-heading">
+  <div class="container" style="max-width: 800px;">
+    <div class="text-center">
+      <span class="section-label">From the Blog</span>
+      <h2 class="section-heading" id="blog-heading">The Joy of Movement in Early Childhood</h2>
+      <p style="font-family:'Helvetica Neue', Arial, sans-serif; font-size:0.85rem; color:var(--clay); margin-bottom:2rem;">By Ashley Thompson &nbsp;&middot;&nbsp; October 25, 2025</p>
+    </div>
+    <div style="background:var(--white); border-radius:var(--radius-lg); padding:2.5rem; box-shadow:var(--shadow-sm); border:1px solid rgba(45,80,22,0.08);">
+      <p>When a two-year-old discovers that she can spin in a circle until she falls down laughing, something important is happening. She is learning about her vestibular system, yes — but she is also discovering that her body is hers to experiment with, that movement can be delightful, and that the floor is a perfectly acceptable place to end up.</p>
+      <p style="margin-top:1rem;">Early childhood is a window of profound physical and neurological development. Children who are given regular opportunities for free and guided movement build stronger neural pathways, develop richer emotional vocabularies, and arrive in kindergarten with bodies that are ready to sit still — because they have had every chance to not sit still first.</p>
+      <p style="margin-top:1rem;">Creative movement, in particular, asks children to translate inner experience into physical action. When I say "move like you're made of honey" or "show me what sad looks like with just your arms," I am asking them to do something genuinely complex: to feel, to imagine, and to express — all at once. The children who find this hardest are often the ones who need it most.</p>
+      <p style="margin-top:1rem;">This is why I built Little Roots. Not to train dancers, but to give children a language that lives in their bodies — one that will serve them long after the music stops.</p>
+      <p style="margin-top:1.5rem; font-style:italic; color:var(--green-deep);">— Miss Ashley</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     NEWSLETTER / STAY IN THE LOOP
+     Note: This form UI requires a third-party email service to function.
+     Connect Mailchimp (or similar) by replacing the form action with your
+     Mailchimp embedded form POST URL, or use a service like ConvertKit,
+     EmailOctopus, or Buttondown. The current form is UI-only.
+════════════════════════════════════════════ -->
+<section class="section bg-white" id="newsletter" aria-labelledby="newsletter-heading">
+  <div class="container">
+    <div class="newsletter-band">
+      <span class="section-label">Stay in the Loop</span>
+      <h3 id="newsletter-heading">Get Event Updates</h3>
+      <p>New dates, seasonal sessions, and occasional notes from Miss Ashley — delivered to your inbox, never more than twice a month.</p>
+      <form class="newsletter-form" aria-label="Email signup form">
+        <label for="newsletter-email" class="sr-only" style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0);">Your email address</label>
+        <input type="email" id="newsletter-email" name="email" placeholder="Your email address" autocomplete="email" required />
+        <button type="submit" class="btn btn-primary btn-sm">Notify Me</button>
+      </form>
+      <p class="newsletter-note">No spam, ever. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════ -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+                    <img src="images/logo-white.png" alt="Little Roots Dance" class="footer-logo-img" width="120" height="116">
+        </div>
+        <p class="footer-tagline">Creative movement that inspires kids through joyful expression, spatial awareness, and imaginative play — right here in West Seattle.</p>
+        <p class="footer-copy">&copy; 2026 Miss Ashley, LLC &nbsp;|&nbsp; West Seattle, WA</p>
+      </div>
+      <div class="footer-right">
+        <nav class="footer-nav-links" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="schools.html">For Schools</a>
+          <a href="events.html">Events</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="footer-social" aria-label="Social media links">
+          <a href="#" aria-label="Follow Little Roots on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="Watch Little Roots on YouTube">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Little Roots Dance</title>
+  <meta name="description" content="Reach out to Miss Ashley Thompson about community dance classes, school programs, or private events in West Seattle." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAV
+════════════════════════════════════════════ -->
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Little Roots Dance home">
+            <img src="images/logo-white.png" alt="Little Roots Dance" class="site-logo-img" width="65" height="63">
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="schools.html">For Schools</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="for-parents.html">For Parents</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="btn-nav-cta">Contact</a></li>
+    </ul>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<nav class="nav-mobile" id="mobile-nav" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="schools.html">For Schools</a>
+  <a href="events.html">Events</a>
+  <a href="for-parents.html">For Parents</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- ══════════════════════════════════════════
+     HERO
+════════════════════════════════════════════ -->
+<section class="hero" style="min-height:340px;" aria-label="Contact introduction">
+  <svg class="hero-bg-pattern" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+    <g fill="none" stroke="#FDF6EC" stroke-width="1" opacity="0.5">
+      <path d="M50 350 Q90 300 70 240 Q110 230 130 180"/>
+      <path d="M400 380 Q440 330 420 270 Q460 260 480 210"/>
+      <path d="M700 360 Q740 310 720 250 Q760 240 780 190"/>
+      <ellipse cx="70" cy="240" rx="18" ry="9" transform="rotate(-30 70 240)"/>
+      <ellipse cx="420" cy="270" rx="18" ry="9" transform="rotate(-30 420 270)"/>
+      <ellipse cx="720" cy="250" rx="18" ry="9" transform="rotate(-30 720 250)"/>
+    </g>
+  </svg>
+  <div class="container">
+    <div class="hero-content">
+      <span class="section-label">Say Hello</span>
+      <h1>Get in Touch</h1>
+      <p>Questions, class inquiries, school programs — Miss Ashley reads every message and responds personally within one to two business days.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CONTACT GRID
+     Note: This form uses Formspree for submission handling.
+     To activate: create a free account at https://formspree.io, create a new
+     form, and replace "REPLACE_WITH_YOUR_ID" below with your form's unique ID.
+     The form will then send submissions directly to your email address.
+════════════════════════════════════════════ -->
+<section class="section bg-cream" id="contact-form" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Left: What to reach out for -->
+      <div class="contact-info">
+        <span class="section-label">We're Here For You</span>
+        <h2 id="contact-heading" class="section-heading">How Can We Help?</h2>
+        <p>Every inquiry is welcome. Whether you're a parent wondering if Little Roots is right for your three-year-old, or a school coordinator looking to schedule a semester of sessions, this is the right place to start.</p>
+
+        <div class="contact-reasons" role="list">
+          <div class="contact-reason" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <div>
+              <strong>Community Classes</strong>
+              <p>Questions about Wiggle and Move or upcoming events, age appropriateness, or what to expect at your first class.</p>
+            </div>
+          </div>
+          <div class="contact-reason" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+            <div>
+              <strong>School Programs</strong>
+              <p>Scheduling, pricing, curriculum, what we need from your school, and anything else about our in-school sessions.</p>
+            </div>
+          </div>
+          <div class="contact-reason" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <div>
+              <strong>Private &amp; Special Events</strong>
+              <p>Birthday movement parties, community center partnerships, or any other custom arrangement — let's talk.</p>
+            </div>
+          </div>
+          <div class="contact-reason" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <div>
+              <strong>General Questions</strong>
+              <p>Not sure what category you fall into? Just send a message — Ashley will figure out the rest.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="response-note" aria-label="Response time">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Typically responds within 1–2 business days
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact-form-wrap">
+        <form
+          action="https://formspree.io/f/REPLACE_WITH_YOUR_ID"
+          method="POST"
+          aria-labelledby="form-heading"
+          novalidate
+        >
+          <h3 id="form-heading" style="color:var(--green-deep); margin-bottom:1.5rem; font-size:1.2rem;">Send a Message</h3>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Jane Smith"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="jane@example.com"
+                autocomplete="email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">What's This About?</label>
+            <select id="subject" name="subject" required>
+              <option value="" disabled selected>Select a topic</option>
+              <option value="Class Inquiry">Class Inquiry</option>
+              <option value="School Program">School Program</option>
+              <option value="Private Event">Private Event</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell us a little about what you're looking for — your child's age, which school you're with, or whatever's on your mind."
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-submit-wrap">
+            <button type="submit" class="btn btn-primary">Send Message &rarr;</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     LOCATION CALLOUT
+════════════════════════════════════════════ -->
+<section class="section-sm bg-white" id="location" aria-labelledby="location-heading">
+  <div class="container" style="max-width: 700px; text-align: center;">
+    <span class="section-label">Where We Are</span>
+    <h2 id="location-heading" class="section-heading">Rooted in Seattle</h2>
+    <p>Little Roots is based in West Seattle and serves schools and families throughout the West Seattle and surrounding Seattle neighborhoods. Community classes are held at Delridge Community Center.</p>
+    <div style="display:flex; align-items:center; justify-content:center; gap:0.6rem; margin-top:1.5rem;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7B9E4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span style="font-family:'Helvetica Neue',Arial,sans-serif; font-weight:600; color:var(--green-deep); font-size:0.95rem;">Seattle, WA</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════ -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+                    <img src="images/logo-white.png" alt="Little Roots Dance" class="footer-logo-img" width="120" height="116">
+        </div>
+        <p class="footer-tagline">Creative movement that inspires kids through joyful expression, spatial awareness, and imaginative play — across Seattle and surrounding areas.</p>
+        <p class="footer-copy">&copy; 2026 Miss Ashley, LLC &nbsp;|&nbsp; Seattle, WA</p>
+      </div>
+      <div class="footer-right">
+        <nav class="footer-nav-links" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="schools.html">For Schools</a>
+          <a href="events.html">Events</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="footer-social" aria-label="Social media links">
+          <a href="#" aria-label="Follow Little Roots on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="Watch Little Roots on YouTube">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
